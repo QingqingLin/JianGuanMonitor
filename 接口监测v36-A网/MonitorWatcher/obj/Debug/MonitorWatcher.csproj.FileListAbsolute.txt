@@ -1,0 +1,57 @@
+E:\MonitorPort\MonitorWatcher\bin\Debug\MonitorWatcher.exe.config
+E:\MonitorPort\MonitorWatcher\bin\Debug\MonitorWatcher.exe
+E:\MonitorPort\MonitorWatcher\bin\Debug\MonitorWatcher.pdb
+E:\MonitorPort\MonitorWatcher\obj\Debug\MonitorWatcher.Properties.Resources.resources
+E:\MonitorPort\MonitorWatcher\obj\Debug\MonitorWatcher.csproj.GenerateResource.Cache
+E:\MonitorPort\MonitorWatcher\obj\Debug\MonitorWatcher.exe
+E:\MonitorPort\MonitorWatcher\obj\Debug\MonitorWatcher.pdb
+E:\MonitorPort\MonitorWatcher\obj\Debug\MonitorWatcher.Form1.resources
+E:\MonitorPort\MonitorWatcher\obj\Debug\MonitorWatcher.csprojResolveAssemblyReference.cache
+E:\MonitorPort11\MonitorWatcher\bin\Debug\MonitorWatcher.exe.config
+E:\MonitorPort11\MonitorWatcher\bin\Debug\MonitorWatcher.exe
+E:\MonitorPort11\MonitorWatcher\bin\Debug\MonitorWatcher.pdb
+E:\MonitorPort11\MonitorWatcher\obj\Debug\MonitorWatcher.csprojResolveAssemblyReference.cache
+E:\MonitorPort11\MonitorWatcher\obj\Debug\MonitorWatcher.Form1.resources
+E:\MonitorPort11\MonitorWatcher\obj\Debug\MonitorWatcher.Properties.Resources.resources
+E:\MonitorPort11\MonitorWatcher\obj\Debug\MonitorWatcher.csproj.GenerateResource.Cache
+E:\MonitorPort11\MonitorWatcher\obj\Debug\MonitorWatcher.exe
+E:\MonitorPort11\MonitorWatcher\obj\Debug\MonitorWatcher.pdb
+C:\Users\李帅\Desktop\MonitorPort11\MonitorWatcher\bin\Debug\MonitorWatcher.exe.config
+C:\Users\李帅\Desktop\MonitorPort11\MonitorWatcher\obj\Debug\MonitorWatcher.exe
+C:\Users\李帅\Desktop\MonitorPort11\MonitorWatcher\obj\Debug\MonitorWatcher.pdb
+C:\Users\李帅\Desktop\MonitorPort11\MonitorWatcher\obj\Debug\MonitorWatcher.csprojResolveAssemblyReference.cache
+C:\Users\李帅\Desktop\MonitorPort11\MonitorWatcher\obj\Debug\MonitorWatcher.Form1.resources
+C:\Users\李帅\Desktop\MonitorPort11\MonitorWatcher\obj\Debug\MonitorWatcher.Properties.Resources.resources
+C:\Users\李帅\Desktop\MonitorPort11\MonitorWatcher\obj\Debug\MonitorWatcher.csproj.GenerateResource.Cache
+C:\Users\李帅\Desktop\MonitorPort11\MonitorWatcher\bin\Debug\MonitorWatcher.exe
+C:\Users\李帅\Desktop\MonitorPort11\MonitorWatcher\bin\Debug\MonitorWatcher.pdb
+E:\VC项目\111实验室项目\SuperMonit-原版\MonitorWatcher\bin\Debug\MonitorWatcher.exe.config
+E:\VC项目\111实验室项目\SuperMonit-原版\MonitorWatcher\obj\Debug\MonitorWatcher.exe
+E:\VC项目\111实验室项目\SuperMonit-原版\MonitorWatcher\obj\Debug\MonitorWatcher.pdb
+E:\VC项目\111实验室项目\SuperMonit-原版\MonitorWatcher\bin\Debug\MonitorWatcher.exe
+E:\VC项目\111实验室项目\SuperMonit-原版\MonitorWatcher\bin\Debug\MonitorWatcher.pdb
+E:\VC项目\111实验室项目\SuperMonit-原版\MonitorWatcher\obj\Debug\MonitorWatcher.csprojResolveAssemblyReference.cache
+E:\VC项目\111实验室项目\SuperMonit-原版\MonitorWatcher\obj\Debug\MonitorWatcher.Form1.resources
+E:\VC项目\111实验室项目\SuperMonit-原版\MonitorWatcher\obj\Debug\MonitorWatcher.Properties.Resources.resources
+E:\VC项目\111实验室项目\SuperMonit-原版\MonitorWatcher\obj\Debug\MonitorWatcher.csproj.GenerateResource.Cache
+E:\VC项目\111实验室项目\对622最终版的修改版\SuperMonit-原版\MonitorWatcher\bin\Debug\MonitorWatcher.exe.config
+E:\VC项目\111实验室项目\对622最终版的修改版\SuperMonit-原版\MonitorWatcher\obj\Debug\MonitorWatcher.exe
+E:\VC项目\111实验室项目\对622最终版的修改版\SuperMonit-原版\MonitorWatcher\obj\Debug\MonitorWatcher.pdb
+E:\VC项目\111实验室项目\对622最终版的修改版\SuperMonit-原版\MonitorWatcher\bin\Debug\MonitorWatcher.exe
+E:\VC项目\111实验室项目\对622最终版的修改版\SuperMonit-原版\MonitorWatcher\bin\Debug\MonitorWatcher.pdb
+E:\VC项目\111实验室项目\对622最终版的修改版\SuperMonit-原版\MonitorWatcher\obj\Debug\MonitorWatcher.Form1.resources
+E:\VC项目\111实验室项目\对622最终版的修改版\SuperMonit-原版\MonitorWatcher\obj\Debug\MonitorWatcher.csproj.GenerateResource.Cache
+E:\VC项目\111实验室项目\对622最终版的修改版\SuperMonit-原版\MonitorWatcher\obj\Debug\MonitorWatcher.Properties.Resources.resources
+E:\VC项目\111实验室项目\对622最终版的修改版\SuperMonit-原版\MonitorWatcher\obj\Debug\MonitorWatcher.csprojResolveAssemblyReference.cache
+C:\Users\hp\Desktop\接口监测v32\MonitorWatcher\bin\Debug\MonitorWatcher.exe.config
+C:\Users\hp\Desktop\接口监测v32\MonitorWatcher\obj\Debug\MonitorWatcher.exe
+C:\Users\hp\Desktop\接口监测v32\MonitorWatcher\obj\Debug\MonitorWatcher.pdb
+C:\Users\hp\Desktop\接口监测v32 - 原版\MonitorWatcher\bin\Debug\MonitorWatcher.exe.config
+C:\Users\hp\Desktop\接口监测v32 - 原版\MonitorWatcher\obj\Debug\MonitorWatcher.exe
+C:\Users\hp\Desktop\接口监测v32 - 原版\MonitorWatcher\obj\Debug\MonitorWatcher.pdb
+C:\Users\hp\Desktop\接口监测v32 - 原版\MonitorWatcher\bin\Debug\MonitorWatcher.exe
+C:\Users\hp\Desktop\接口监测v32 - 原版\MonitorWatcher\bin\Debug\MonitorWatcher.pdb
+C:\Users\hp\Desktop\接口监测v32 - 原版\MonitorWatcher\obj\Debug\MonitorWatcher.Form1.resources
+C:\Users\hp\Desktop\接口监测v32 - 原版\MonitorWatcher\obj\Debug\MonitorWatcher.Properties.Resources.resources
+C:\Users\hp\Desktop\接口监测v32 - 原版\MonitorWatcher\obj\Debug\MonitorWatcher.csproj.GenerateResource.Cache
+C:\Users\hp\Desktop\接口监测v32 - 原版\MonitorWatcher\obj\Debug\MonitorWatcher.csprojResolveAssemblyReference.cache

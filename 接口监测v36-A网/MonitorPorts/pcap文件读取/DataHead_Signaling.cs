@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MonitorPorts
+{
+    class DataHead_Signaling
+    {
+        public decimal Time { get; set; }
+
+        public string TimeAll { get; set; }
+        public int GetDataLength { get; set; }
+        public int ActualLength { get; set; }
+
+    }
+}

@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0D501C54-F26F-4798-9E2D-DC149196B1C1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MonitorPorts</RootNamespace>
+    <AssemblyName>MonitorPorts</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>发布\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>DEBUG</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutSotfware.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutSotfware.Designer.cs">
+      <DependentUpon>AboutSotfware.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BindNetworkCard.cs" />
+    <Compile Include="CatchSocket.cs" />
+    <Compile Include="Communication.cs" />
+    <Compile Include="DeleteData.cs" />
+    <Compile Include="Diameter\diameterCDRstruct.cs" />
+    <Compile Include="Diameter\diameterStruct.cs" />
+    <Compile Include="FilterFormcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilterFormcs.Designer.cs">
+      <DependentUpon>FilterFormcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gtpv2\gtpCDRstruct.cs" />
+    <Compile Include="gtpv2\gtpStruct.cs" />
+    <Compile Include="gtpv2\gtpv2.cs" />
+    <Compile Include="gtpv2\S10Message.cs" />
+    <Compile Include="gtpv2\Sort_Ip.cs" />
+    <Compile Include="gtpv2\Sort_TEID.cs" />
+    <Compile Include="gtpv2\SubCDR.cs" />
+    <Compile Include="HandlePacket.cs" />
+    <Compile Include="HardwareInfo.cs" />
+    <Compile Include="HiPerfTimer.cs" />
+    <Compile Include="IniRead.cs" />
+    <Compile Include="IPList.cs" />
+    <Compile Include="ListViewNF.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LTEmessage.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PacketProperties.cs" />
+    <Compile Include="Diameter\Diameter.cs" />
+    <Compile Include="Packet\HashTable.cs" />
+    <Compile Include="Packet\ProtocolType.cs" />
+    <Compile Include="Packet\Read.cs" />
+    <Compile Include="Diameter\Tcp.cs" />
+    <Compile Include="pcap文件读取\DataHead_Signaling.cs" />
+    <Compile Include="pcap文件读取\FilterPcap.cs" />
+    <Compile Include="pcap文件读取\GeneratePcapFile.cs" />
+    <Compile Include="pcap文件读取\IPHead.cs" />
+    <Compile Include="pcap文件读取\PacapPacketHeader.cs" />
+    <Compile Include="pcap文件读取\PcapDecoder_Signaling.cs" />
+    <Compile Include="pcap文件读取\PcapFile.cs" />
+    <Compile Include="pcap文件读取\PcapFileHeader.cs" />
+    <Compile Include="pcap文件读取\Timestamp.cs" />
+    <Compile Include="pcap文件读取\UDPHead.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Diameter\SctpPacket.cs" />
+    <Compile Include="QueryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryForm.Designer.cs">
+      <DependentUpon>QueryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="read.cs" />
+    <Compile Include="s1ap\cause.cs" />
+    <Compile Include="s1ap\classfication.cs" />
+    <Compile Include="s1ap\initialUeMsg.cs" />
+    <Compile Include="s1ap\nasCause\CauseType.cs" />
+    <Compile Include="s1ap\nasCause\decodeCause.cs" />
+    <Compile Include="s1ap\nasCause\EPS_mobility_management_messages.cs" />
+    <Compile Include="s1ap\nasCause\EPS_session_management_messages.cs" />
+    <Compile Include="s1ap\nasCause\NasCause.cs" />
+    <Compile Include="s1ap\nas信元\E-rabModify.cs" />
+    <Compile Include="s1ap\nas信元\E_rabSetup.cs" />
+    <Compile Include="s1ap\nas信元\initial context setup.cs" />
+    <Compile Include="s1ap\nas信元\nas_pdu.cs" />
+    <Compile Include="s1ap\nas用户标识\attach_acp.cs" />
+    <Compile Include="s1ap\nas用户标识\attach_req.cs" />
+    <Compile Include="s1ap\nas用户标识\detach_req.cs" />
+    <Compile Include="s1ap\nas用户标识\guti_reallocation.cs" />
+    <Compile Include="s1ap\nas用户标识\TAU_acp.cs" />
+    <Compile Include="s1ap\nas用户标识\TAU_req.cs" />
+    <Compile Include="s1ap\new-s1ap.cs" />
+    <Compile Include="s1ap\paging.cs" />
+    <Compile Include="s1ap\s1ap-id1.cs" />
+    <Compile Include="s1ap\s1ap-id2.cs" />
+    <Compile Include="s1ap\S1ap.cs" />
+    <Compile Include="s1ap\s1ap_nas.cs" />
+    <Compile Include="s1ap\sctp.cs" />
+    <Compile Include="s1ap\信令结构\struct.cs" />
+    <Compile Include="s1ap\解密‘\decode_decrypt.cs" />
+    <Compile Include="s1ap\解密‘\EEA1.cs" />
+    <Compile Include="s1ap\解密‘\EEA2.cs" />
+    <Compile Include="s1ap\解密‘\EEA3.cs" />
+    <Compile Include="s1ap\解密‘\hash.cs" />
+    <Compile Include="s1ap\解密‘\kdf.cs" />
+    <Compile Include="ShowThread.cs" />
+    <Compile Include="Signal\TypeEnum.cs" />
+    <Compile Include="SnifferSocketException.cs" />
+    <Compile Include="UnpackPcap\DataHead.cs" />
+    <Compile Include="UnpackPcap\PcapDecoder.cs" />
+    <Compile Include="Warning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Warning.Designer.cs">
+      <DependentUpon>Warning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="多段关联NAS\NAS_deC.cs" />
+    <EmbeddedResource Include="AboutSotfware.resx">
+      <DependentUpon>AboutSotfware.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilterFormcs.resx">
+      <DependentUpon>FilterFormcs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QueryForm.resx">
+      <DependentUpon>QueryForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Warning.resx">
+      <DependentUpon>Warning.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icos\buttonSuspend.Image.png" />
+    <None Include="Icos\buttonStop.Image.png" />
+    <Content Include="Icos\Clear.png" />
+    <Content Include="Icos\Filter.png" />
+    <Content Include="Icos\Main.png" />
+    <Content Include="Icos\Open.png" />
+    <Content Include="Icos\Save.png" />
+    <Content Include="Icos\Start.png" />
+    <Content Include="Icos\Stop.png" />
+    <Content Include="ZC--VOBC.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

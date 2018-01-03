@@ -1,0 +1,9 @@
+C:\Users\hp\Desktop\接口监测v32 - 原版\MonitorWatcher\bin\Release\MonitorWatcher.exe.config
+C:\Users\hp\Desktop\接口监测v32 - 原版\MonitorWatcher\bin\Release\MonitorWatcher.exe
+C:\Users\hp\Desktop\接口监测v32 - 原版\MonitorWatcher\bin\Release\MonitorWatcher.pdb
+C:\Users\hp\Desktop\接口监测v32 - 原版\MonitorWatcher\obj\Release\MonitorWatcher.csprojResolveAssemblyReference.cache
+C:\Users\hp\Desktop\接口监测v32 - 原版\MonitorWatcher\obj\Release\MonitorWatcher.Form1.resources
+C:\Users\hp\Desktop\接口监测v32 - 原版\MonitorWatcher\obj\Release\MonitorWatcher.Properties.Resources.resources
+C:\Users\hp\Desktop\接口监测v32 - 原版\MonitorWatcher\obj\Release\MonitorWatcher.csproj.GenerateResource.Cache
+C:\Users\hp\Desktop\接口监测v32 - 原版\MonitorWatcher\obj\Release\MonitorWatcher.exe
+C:\Users\hp\Desktop\接口监测v32 - 原版\MonitorWatcher\obj\Release\MonitorWatcher.pdb

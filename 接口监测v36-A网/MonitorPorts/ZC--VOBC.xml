@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GeneralPacket>
+  <!--记录CBTC标准协议的信息-->
+  <node index="1" name="InterfaceType" len="2" defValue="0x9006"></node>
+  <node index="2" name="SenderID" len="4" defValue="null"></node>
+  <node index="3" name="ReceiverID" len="4" defValue="null"></node>
+  <node index="4" name="EmapVersion" len="1" defValue="0xffff"></node>
+  <node index="5" name="EmapVersionCheck" len="4" defValue="null"></node>
+  <node index="6" name="Seq"  len="4" defValue="null"></node>
+  <node index="7" name="Period" len="1" defValue="0x32"></node>
+  <node index="8" name="OppoSeq" len="4" defValue="null"></node>
+  <node index="9" name="LastSeq" len="4" defValue="null"></node>
+  <node index="10" name="ProtocalVersion" len="1" defValue="null"></node>
+</GeneralPacket>

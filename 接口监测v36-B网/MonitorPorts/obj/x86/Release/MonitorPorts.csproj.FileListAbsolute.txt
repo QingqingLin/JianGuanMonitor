@@ -1,0 +1,3 @@
+E:\DCS\软件开发\接口监测\MonitorPorts\MonitorPorts\obj\x86\Release\MonitorPorts.Form1.resources
+E:\DCS\软件开发\接口监测\MonitorPorts\MonitorPorts\obj\x86\Release\MonitorPorts.Properties.Resources.resources
+E:\DCS\软件开发\接口监测\MonitorPorts\MonitorPorts\obj\x86\Release\MonitorPorts.csproj.GenerateResource.Cache
